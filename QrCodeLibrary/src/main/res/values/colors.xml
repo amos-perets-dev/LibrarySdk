@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#B00A0A</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="welcome_screen_main_title_text_color">@color/colorBlack</color>
+    <color name="welcome_screen_start_button_name_text_color">@color/colorWhite</color>
+
+
+    <color name="sounds_screen_main_title_color">@color/colorBlack</color>
+    <color name="sounds_screen_sound_name_color">@color/colorBlack</color>
+    <color name="sounds_screen_error_color">@color/colorRed</color>
+    <color name="sounds_screen_empty_color">@color/colorBlack</color>
+
+</resources>

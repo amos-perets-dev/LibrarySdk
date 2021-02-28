@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="welcome_screen_main_title_text_size">46sp</dimen>
+    <dimen name="welcome_screen_start_button_name_text_size">26sp</dimen>
+
+
+    <dimen name="sounds_screen_main_title_text_size">24sp</dimen>
+    <dimen name="sounds_screen_sound_name_text_size">24sp</dimen>
+    <dimen name="sounds_screen_error_text_size">22sp</dimen>
+
+</resources>

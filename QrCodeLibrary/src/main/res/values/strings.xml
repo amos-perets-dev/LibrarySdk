@@ -1,0 +1,10 @@
+<resources>
+    <string name="welcome_screen_main_title_text">Welcome</string>
+    <string name="welcome_screen_start_button_name_text">Start</string>
+
+    <string name="sounds_screen_main_title_text">Playback list</string>
+    <string name="sounds_screen_empty_msg_text">No available data</string>
+    <string name="sounds_screen_empty_general_error_text">Oops…something went wrong please try later</string>
+    <string name="sounds_screen_empty_internet_error_text">Internet is unavailable. please check the internet access and try again later</string>
+
+</resources>

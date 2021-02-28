@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainNavGraph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.mylibrary.screens.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome">
+
+        <action
+            android:id="@+id/action_welcomeFragment_to_soundsFragment"
+            app:destination="@id/soundsFragment"
+            app:enterAnim="@anim/slide_up_dialog"
+            app:exitAnim="@anim/slide_down_dialog"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="false" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/soundsFragment"
+        android:name="com.example.mylibrary.screens.sounds.SoundsFragment"
+        android:label="fragment_sounds"
+        tools:layout="@layout/fragment_sounds">
+
+    </fragment>
+
+</navigation>
